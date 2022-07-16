@@ -4,3 +4,7 @@
 - 6782 -> 23
 - 0,56 -> 11
 '''
+
+N = input('Введите число: ')
+result = sum(map(int, str(N).replace(".","")))
+print(result)
